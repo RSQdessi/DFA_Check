@@ -1,0 +1,40 @@
+body {
+  font-family: 'Steppe-Book', sans-serif;
+  
+}
+
+@font-face {
+  font-family: 'Steppe-Book';
+  src: url(../fonts/Steppe-Book.ttf);
+}
+
+@font-face {
+  font-family: 'Steppe-ExtraBold';
+  src: url(../fonts/Steppe-ExtraBold.ttf);
+}
+
+h1{
+  font-family: 'Steppe-ExtraBold', sans-serif;
+  color: #5243F4;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+input, button {
+  padding: 10px;
+  margin: 5px 10px 5px 0;
+  border-radius: 10px;
+  background-color: #5243F4;;
+  color: white;
+  border: none;
+}
+#result {
+  padding: 10px;               
+  min-height: 50px;             
+  white-space: pre-wrap;        
+}

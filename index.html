@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Проверка ДКА</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Проверка ДКА</h1>
+    
+
+    <input type="file" id="fileInput">
+    <button onclick="createMachine()">Создать ДКА</button>
+    <br><br>
+    
+
+    <label for="inputWord">Введите строку для проверки:</label>
+    <input type="text" id="inputWord">
+    <button onclick="checkWord()">Проверить строку</button>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
